@@ -111,7 +111,7 @@ def create_embeddings(img):
 #save_image()
 
 def compare_img():
-    img=cv2.imread("imagesreylopes.jpg")
+    img=cv2.imread("yourfaceimage.jpg")
     encd=create_embeddings(img)
     video_capture = cv2.VideoCapture(0)
     while True:
